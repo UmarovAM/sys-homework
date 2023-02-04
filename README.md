@@ -1,67 +1,23 @@
-# Домашнее задание к занятию 9.2 «Zabbix. Часть 1» Умаров Азиз
+# Домашнее задание к занятию 9.3 «Zabbix. Часть 2» Умаров Азиз
 
 
 ### Задание 1
-Установите Zabbix Server с веб-интерфейсом.
+Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста.
 
-Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.
-![alt text](https://github.com/UmarovAM/sys-homework/blob/c0c68ec38067632a4df660fca1936c427c47d75a/ADMIN.PNG)
-![alt text](https://github.com/UmarovAM/sys-homework/blob/f512456cd0b4669222ba5de8d973010087bc57e4/ADMIN2.PNG)
-![image](https://user-images.githubusercontent.com/118117183/215325605-b7b7619f-1e39-433c-9611-985e4d83b2e3.png)
-
-17  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-   18  sudo apt-get update
-   19  sudo apt-get -y install postgresql
-   20  sudo apt list --installed | grep postgresql
-   21  wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian10_all.deb
-   22  dpkg -i zabbix-release_6.0-4+debian10_all.deb
-   23  apt update
-   24  apt install zabbix-server-pgsql zabbix-frontend-php php7.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-  
-   11  sudo -u postgres createuser --pwprompt zabbix
-   12  sudo -u postgres createdb -O zabbix zabbix
-   13  zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-   14  sudo nano /etc/zabbix/zabbix_server.conf
-   15  systemctl restart zabbix-server zabbix-agent apache2
-   16  sudo systemctl restart zabbix-server zabbix-agent apache2
-   17  sudo systemctl enable zabbix-server zabbix-agent apache2
-   18  sudo /etc/locale.gen
-   19  sudo nano /etc/locale.gen
-   20  sudo systemctl restart zabbix-server zabbix-agent apache2
-   21  sudo nano /etc/locale.gen
-   22  locale-gen
-   23  sudo locale-gen
-   24  sudo systemctl restart zabbix-server zabbix-agent apache2
-
-
-
-
+Сохраните в Git скриншот страницы шаблона с названием «Задание 1».
 
 ### Задание 2
-Установите Zabbix Agent на два хоста.
+Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
 
-Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.
+Результат этого задания сдавайте вместе с заданием 3.
 
-![alt text](https://github.com/UmarovAM/sys-homework/blob/8ebe2cdec35f1091f7056ed22acf8c2d8fa2fb16/ZABBIX%20AGENT%202%20Hosts.PNG)
+### Задание 3
+Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
 
-![alt text](https://github.com/UmarovAM/sys-homework/blob/8ebe2cdec35f1091f7056ed22acf8c2d8fa2fb16/ZABBIX%20AGENT%202%20latest%20data.PNG)
+Сохраните в Git скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения.
 
-![image](https://user-images.githubusercontent.com/118117183/215328095-0781f833-5464-4967-b115-be1497d641bd.png)
-  17  apt install zabbix-agent
-   18  # systemctl restart zabbix-agent
-   19  systemctl enable zabbix-agent
-   20  systemctl restart zabbix-agent
-   21  systemctl enable zabbix-agent
-   22  /var/log/zabbix/zabbix_agentd.log
-   23  /var/log/zabbix/zabbix_agentd.log
-   24  sudo nano /etc/zabbix/zabbix_agentd.conf
-   25  systemctl restart zabbix-agent
-   26  systemctl status zabbix-agent
-   27  cat /var/log/zabbix/zabbix_agentd.log
-   28  tail -f /var/log/zabbix/zabbix_agentd.log
-   29  tail -f /var/log/zabbix-agent/zabbix_agentd.log
-   30  sudo nano /etc/zabbix/zabbix_agentd.conf
-   31  systemctl restart zabbix-agent
-   32  tail -f /var/log/zabbix-agent/zabbix_agentd.log
+### Задание 4
+Создайте свой кастомный дашборд.
 
+Сохраните в Git скриншот дашборда с названием «Задание 4».
 
