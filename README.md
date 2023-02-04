@@ -6,6 +6,8 @@
 
 Сохраните в Git скриншот страницы шаблона с названием «Задание 1».
 
+![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_1_my_template%20v2.PNG)
+
 ### Задание 2
 Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
 
@@ -16,8 +18,11 @@
 
 Сохраните в Git скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения.
 
+![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_2-3_my_template.PNG)
+
 ### Задание 4
 Создайте свой кастомный дашборд.
 
 Сохраните в Git скриншот дашборда с названием «Задание 4».
 
+![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_4_my_dashboard.PNG)
