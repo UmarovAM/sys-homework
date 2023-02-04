@@ -1,28 +1,48 @@
 # Домашнее задание к занятию 9.3 «Zabbix. Часть 2» Умаров Азиз
-
-
 ### Задание 1
-Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста.
 
-Сохраните в Git скриншот страницы шаблона с названием «Задание 1».
+Установите Prometheus.
 
-![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_1_my_template%20v2.PNG)
+*Приведите скриншот systemctl status prometheus, где будет написано: prometheus.service — Prometheus Service Netology Lesson 9.4 — [Ваши ФИО].*
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.PNG)
+---
 
 ### Задание 2
-Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
 
-Результат этого задания сдавайте вместе с заданием 3.
+Установите Node Exporter.
+
+*Приведите скриншот systemctl status node-exporter, где будет написано: node-exporter.service — Node Exporter Netology Lesson 9.4 — [Ваши ФИО].*
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.PNG)
+---
 
 ### Задание 3
-Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
 
-Сохраните в Git скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения.
+Подключите Node Exporter к серверу Prometheus.
 
-![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_2-3_my_template.PNG)
+*Приложите скриншот конфига из интерфейса Prometheus вкладки Status > Configuration.*
+*Приложите скриншот из интерфейса Prometheus вкладки Status > Targets, чтобы было видно минимум два эндпоинта.*
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%203.PNG)
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%203.1.PNG)
 
-### Задание 4
-Создайте свой кастомный дашборд.
+---
+## Дополнительные задания со звёздочкой*
 
-Сохраните в Git скриншот дашборда с названием «Задание 4».
+Эти задания дополнительные. Их можно не выполнять. Это не повлияет на зачёт. Вы можете их выполнить, если хотите глубже разобраться в материале.
 
-![alt text](https://github.com/UmarovAM/sys-homework/blob/d87bb09d53ad8e746323acc579b9e218df2554ba/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_4_my_dashboard.PNG)
+---
+![alt text](
+### Задание 4*
+
+Установите Grafana.
+
+*Приложите скриншот левого нижнего угла интерфейса, чтобы при наведении на иконку пользователя были видны ваши ФИО.*
+
+---
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%204.PNG)
+### Задание 5*
+
+Интегрируйте Grafana и Prometheus.
+
+*Приложите скриншот дашборда (ID:11074) с поступающими туда данными из Node Exporter.*
+
+![alt text](https://github.com/UmarovAM/sys-homework/blob/540963c4fe636f7b206a1088c7400f854fd67a41/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%205.PNG)
