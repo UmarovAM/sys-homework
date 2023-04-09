@@ -12,7 +12,7 @@ auth_type AH
 auth_pass 1111
 }
 unicast_peer {
-192.168.2.2
+192.168.2.1
 }
 virtual_ipaddress {
 192.168.2.250 dev enp0s8 label enp0s8
@@ -30,7 +30,7 @@ auth_type AH
 auth_pass 1111
 }
 unicast_peer {
-192.168.31.133
+192.168.31.15
 }
 virtual_ipaddress {
 192.168.31.200 dev enp0s3 label TEST
@@ -50,7 +50,7 @@ auth_type AH
 auth_pass 1111
 }
 unicast_peer {
-192.168.2.1
+192.168.2.2
 }
 virtual_ipaddress {
 192.168.2.250 dev enp0s8 label enp0s8
@@ -67,7 +67,7 @@ auth_type AH
 auth_pass 1111
 }
 unicast_peer {
-192.168.31.15
+192.168.31.133
 }
 virtual_ipaddress {
 192.168.31.200 dev enp0s3 label TEST
