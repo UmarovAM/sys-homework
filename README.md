@@ -102,15 +102,3 @@ https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=xL2yrk
 Ответ в таблице:
 https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=NDiYjN
 
-## Приведите решение к следующему виду:
-```
-Employee(
-  EmployeeId PRIMERY KEY smallserial,
-  EmployeeFullName varchar(128),
-  DateHiring date,
-  SalaryId SECONDARY KEY smallint,
-  PositionId SECONDARY KEY smallint
-  DepartmentTypeId SECONDARY KEY smallint
-  DepartmentId SECONDARY KEY smallint
-  AddressID SECONDARY KEY smallint);
-```
