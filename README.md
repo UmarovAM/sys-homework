@@ -33,28 +33,65 @@ Employee(
 ```
 ## 2.	Salary
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/74a03b87-b015-47f6-9ccf-9239ae10e7ed)
-
+```
+Salary(
+  SalaryId PRIMERY KEY smallserial,
+  PositionId SECONDARY KEY smallint,
+  PositionId SECONDARY KEY smallint
+  DepartmentTypeId SECONDARY KEY smallint
+  DepartmentId SECONDARY KEY smallint
+  AddressID SECONDARY KEY smallint
+  SalaryAmount integer);
+```
 ## 3.	Project
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/1eae8981-c6d4-4f0e-b1b2-fe273bf35c07)
-
+```
+Project(
+  ProjectId PRIMERY KEY smallserial,
+  ProjectName varchar(128));
+```
 ## 4.	EmployeeProject
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/d8f670bb-c02b-421b-9927-658b01894d95)
-
+```
+EmployeeProject(
+  EmployeeId PRIMERY KEY smallserial,
+  ProjectId SECONDARY KEY smallint);
+```
 ## 5.	Position
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/8dbde879-d68f-4865-8625-7e2b1b7574f6)
-
+```
+Position(
+  PositionId PRIMERY KEY smallserial,
+  PositionName varchar(128));
+```
 ## 6.	DepartmentType
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0be339f9-6e48-4ca9-ac96-15fd2af69c37)
-
+```
+DepartmentType(
+  DepartmentTypeId PRIMERY KEY smallserial,
+  DepartmentTypeName varchar(128));
+```
 ## 7.	Department
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/eb06234e-42c4-4af8-8f46-0bce097ea384)
-
+```
+Department(
+  DepartmentId PRIMERY KEY smallserial,
+  DepartmentName varchar(128));
+```
 ## 8.	Address
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/9b3f5345-7e16-4662-a3aa-4af5694d8b28)
-
+```
+Address(
+  AddressID PRIMERY KEY smallserial,
+  DepartmentAddress varchar(128));
+```
 ## 9.	DepartmentAddress
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0e80b7d7-3ef0-4bc2-80ad-3869c97139f4)
-
+```
+DepartmentAddress(
+  DepartmentId PRIMERY KEY smallserial,
+  AddressID SECONDARY KEY smallint);
+```
 
 
 ## Какие данные хранятся в этих таблицах;
