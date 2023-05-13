@@ -18,8 +18,6 @@
 8. Address
 9.	DepartmentAddress
 
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b525586f-3184-4feb-921c-e18a71e19f94)
-
 ## 1.	Employee
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cd462c26-dc98-4475-b153-3d0e0420aa90)
 ```
