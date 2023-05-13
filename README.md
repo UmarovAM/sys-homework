@@ -6,6 +6,8 @@
 
 [hw-12-1 Умаров Азиз.xlsx](https://github.com/UmarovAM/sys-homework/files/11469887/hw-12-1.xlsx)
 
+https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=OIaUuM
+
 скрины таблиц с описанием
 
 1. Employee
