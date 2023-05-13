@@ -16,3 +16,6 @@
 
 ## какие данные хранятся в этих таблицах;
 https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=xL2yrk
+
+## Какой тип данных у столбцов в этих таблицах, если данные хранятся в PostgreSQL.
+https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=NDiYjN
