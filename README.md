@@ -11,4 +11,5 @@
 7	DepartmentType
 8	Address
 9	DepartmentAddress
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/2370c7cd-be40-456c-a2d0-0c3eaf9ab78d)
