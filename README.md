@@ -5,14 +5,18 @@
 Прикрепил файл с таблицами в разных листах в файле Excel еще внизу в виде скрина с описанием
 
 [hw-12-1 Умаров Азиз.xlsx](https://github.com/UmarovAM/sys-homework/files/11469887/hw-12-1.xlsx)
-1	Employee
-2	Salary
-3	Project
-4	EmployeeProject
-5	Position
-6	DepartmentType
-7	Address
-8	DepartmentAddress
+
+еще внизу в виде скрина с описанием
+
+1. Employee
+2. Salary
+3. Project
+4. EmployeeProject
+5. Position
+6. DepartmentType
+7. Department
+8. Address
+9.	DepartmentAddress
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b525586f-3184-4feb-921c-e18a71e19f94)
 
