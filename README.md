@@ -1,4 +1,4 @@
-Домашнее задание к занятию «Базы данных» Умаров Азиз
+### Домашнее задание к занятию «Базы данных» Умаров Азиз
 
 # Задание 1
 ## Опишите не менее семи таблиц, из которых состоит база данных:
@@ -25,13 +25,12 @@ https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=NDiYjN
 ## Приведите решение к следующему виду:
 ```
 Employee(
-EmployeeId PRIMERY KEY smallserial,
-EmployeeFullName varchar(128),
-DateHiring date,
-SalaryId SECONDARY KEY smallint,
-PositionId SECONDARY KEY smallint
-DepartmentTypeId SECONDARY KEY smallint
-DepartmentId SECONDARY KEY smallint
-AddressID SECONDARY KEY smallint);
-
+  EmployeeId PRIMERY KEY smallserial,
+  EmployeeFullName varchar(128),
+  DateHiring date,
+  SalaryId SECONDARY KEY smallint,
+  PositionId SECONDARY KEY smallint
+  DepartmentTypeId SECONDARY KEY smallint
+  DepartmentId SECONDARY KEY smallint
+  AddressID SECONDARY KEY smallint);
 ```
