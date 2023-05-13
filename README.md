@@ -4,15 +4,15 @@
 ## Опишите не менее семи таблиц, из которых состоит база данных:
 1	Employee
 2	Salary
-3	EmployeePosition
-4	Project
-5	EmployeeProject
-6	Position
-7	DepartmentType
-8	Address
-9	DepartmentAddress
+3	Project
+4	EmployeeProject
+5	Position
+6	DepartmentType
+7	Address
+8	DepartmentAddress
 
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/2370c7cd-be40-456c-a2d0-0c3eaf9ab78d)
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b525586f-3184-4feb-921c-e18a71e19f94)
+
 
 ## Какие данные хранятся в этих таблицах;
 Ответ в таблице:
@@ -24,8 +24,14 @@ https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=NDiYjN
 
 ## Приведите решение к следующему виду:
 ```
-CREATE TABLE workers
-(varchar varchar(5),
-char char(3),
-text text);
+Employee(
+EmployeeId PRIMERY KEY smallserial,
+EmployeeFullName varchar(128),
+DateHiring date,
+SalaryId SECONDARY KEY smallint,
+PositionId SECONDARY KEY smallint
+DepartmentTypeId SECONDARY KEY smallint
+DepartmentId SECONDARY KEY smallint
+AddressID SECONDARY KEY smallint);
+
 ```
