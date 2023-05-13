@@ -15,6 +15,17 @@
 
 1	Employee
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cd462c26-dc98-4475-b153-3d0e0420aa90)
+```
+Employee(
+  EmployeeId PRIMERY KEY smallserial,
+  EmployeeFullName varchar(128),
+  DateHiring date,
+  SalaryId SECONDARY KEY smallint,
+  PositionId SECONDARY KEY smallint
+  DepartmentTypeId SECONDARY KEY smallint
+  DepartmentId SECONDARY KEY smallint
+  AddressID SECONDARY KEY smallint);
+```
 
 
 
