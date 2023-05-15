@@ -21,7 +21,7 @@ https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=OIaUuM
 9.	DepartmentAddress
 
 ## 1.	Employee
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cd462c26-dc98-4475-b153-3d0e0420aa90)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cd462c26-dc98-4475-b153-3d0e0420aa90)
 ```
 Employee(
   EmployeeId PRIMERY KEY smallserial,
@@ -34,7 +34,7 @@ Employee(
   AddressID SECONDARY KEY smallint);
 ```
 ## 2.	Salary
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/74a03b87-b015-47f6-9ccf-9239ae10e7ed)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/74a03b87-b015-47f6-9ccf-9239ae10e7ed)
 ```
 Salary(
   SalaryId PRIMERY KEY smallserial,
@@ -46,14 +46,14 @@ Salary(
   SalaryAmount integer);
 ```
 ## 3.	Project
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/1eae8981-c6d4-4f0e-b1b2-fe273bf35c07)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/1eae8981-c6d4-4f0e-b1b2-fe273bf35c07)
 ```
 Project(
   ProjectId PRIMERY KEY smallserial,
   ProjectName varchar(128));
 ```
 ## 4.	EmployeeProject
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/d8f670bb-c02b-421b-9927-658b01894d95)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/d8f670bb-c02b-421b-9927-658b01894d95)
 ```
 EmployeeProject(
   EmployeeId PRIMERY KEY smallserial,
@@ -67,28 +67,28 @@ Position(
   PositionName varchar(128));
 ```
 ## 6.	DepartmentType
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0be339f9-6e48-4ca9-ac96-15fd2af69c37)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0be339f9-6e48-4ca9-ac96-15fd2af69c37)
 ```
 DepartmentType(
   DepartmentTypeId PRIMERY KEY smallserial,
   DepartmentTypeName varchar(128));
 ```
 ## 7.	Department
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/eb06234e-42c4-4af8-8f46-0bce097ea384)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/eb06234e-42c4-4af8-8f46-0bce097ea384)
 ```
 Department(
   DepartmentId PRIMERY KEY smallserial,
   DepartmentName varchar(128));
 ```
 ## 8.	Address
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/9b3f5345-7e16-4662-a3aa-4af5694d8b28)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/9b3f5345-7e16-4662-a3aa-4af5694d8b28)
 ```
 Address(
   AddressID PRIMERY KEY smallserial,
   DepartmentAddress varchar(128));
 ```
 ## 9.	DepartmentAddress
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0e80b7d7-3ef0-4bc2-80ad-3869c97139f4)
+*![image](https://github.com/UmarovAM/sys-homework/assets/118117183/0e80b7d7-3ef0-4bc2-80ad-3869c97139f4)
 ```
 DepartmentAddress(
   DepartmentId PRIMERY KEY smallserial,
