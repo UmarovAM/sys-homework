@@ -26,8 +26,7 @@ Employee(
   DateHiring date,
   SalaryId SECONDARY KEY smallint,
   DepartmentTypeId SECONDARY KEY smallint,
-  DepartmentId SECONDARY KEY smallint,
-  AddressID SECONDARY KEY smallint,);
+  DepartmentId SECONDARY KEY smallint,);
 ```
 ## 2.	Salary
 [image](https://github.com/UmarovAM/sys-homework/assets/118117183/74a03b87-b015-47f6-9ccf-9239ae10e7ed)
