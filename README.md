@@ -4,7 +4,8 @@
 ## Опишите не менее семи таблиц, из которых состоит база данных:
 Прикрепил файл с таблицами на разных листах в файле Excel
 
-[hw-12-1-4.xlsx](https://github.com/UmarovAM/sys-homework/files/11486844/hw-12-1-4.xlsx)
+
+[hw-12-1-4.xlsx](https://github.com/UmarovAM/sys-homework/files/11487393/hw-12-1-4.xlsx)
 
 
 1. Employee
@@ -25,7 +26,6 @@ Employee(
   EmployeeFullName varchar(128),
   DateHiring date,
   SalaryId SECONDARY KEY smallint,
-  DepartmentTypeId SECONDARY KEY smallint,
   DepartmentId SECONDARY KEY smallint,);
 ```
 ## 2.	Salary
@@ -69,6 +69,7 @@ DepartmentType(
 ```
 Department(
   DepartmentId PRIMERY KEY smallserial,
+  DepartmentTypeId SECONDARY KEY smallint,
   DepartmentName varchar(128));
 ```
 ## 8.	Address
