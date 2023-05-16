@@ -4,11 +4,8 @@
 ## Опишите не менее семи таблиц, из которых состоит база данных:
 Прикрепил файл с таблицами на разных листах в файле Excel
 
-[hw-12-1 Умаров Азиз.xlsx](https://github.com/UmarovAM/sys-homework/files/11469887/hw-12-1.xlsx)
+[hw-12-1-4.xlsx](https://github.com/UmarovAM/sys-homework/files/11486844/hw-12-1-4.xlsx)
 
-https://1drv.ms/x/s!AtjLhewZ3c_dgacE_2KV1fyVXxrQUA?e=OIaUuM
-
-скрины таблиц с описанием
 
 1. Employee
 2. Salary
@@ -27,7 +24,10 @@ Employee(
   EmployeeId PRIMERY KEY smallserial,
   EmployeeFullName varchar(128),
   DateHiring date,
-  SalaryId SECONDARY KEY smallint,);
+  SalaryId SECONDARY KEY smallint,
+  DepartmentTypeId SECONDARY KEY smallint,
+  DepartmentId SECONDARY KEY smallint,
+  AddressID SECONDARY KEY smallint,);
 ```
 ## 2.	Salary
 [image](https://github.com/UmarovAM/sys-homework/assets/118117183/74a03b87-b015-47f6-9ccf-9239ae10e7ed)
@@ -35,10 +35,6 @@ Employee(
 Salary(
   SalaryId PRIMERY KEY smallserial,
   PositionId SECONDARY KEY smallint,
-  PositionId SECONDARY KEY smallint
-  DepartmentTypeId SECONDARY KEY smallint
-  DepartmentId SECONDARY KEY smallint
-  AddressID SECONDARY KEY smallint
   SalaryAmount integer);
 ```
 ## 3.	Project
