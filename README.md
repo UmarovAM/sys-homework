@@ -5,8 +5,6 @@
 Прикрепил файл с таблицами на разных листах в файле Excel
 
 
-[hw-12-1-4.xlsx](https://github.com/UmarovAM/sys-homework/files/11487393/hw-12-1-4.xlsx)
-
 
 1. Employee
 2. Salary
@@ -16,8 +14,7 @@
 6. DepartmentType
 7. Department
 8. Address
-9. DepartmentAddress
-10. PositionDepartment (новая таблица)
+
 
 ## 1.	Employee
 
@@ -33,7 +30,7 @@ Employee(
 ```
 Salary(
   SalaryId PRIMERY KEY smallserial,
-  PositionDepartmentId SECONDARY KEY smallint,
+  PositionId SECONDARY KEY smallint,
   SalaryAmount integer);
 ```
 ## 3.	Project
@@ -56,6 +53,7 @@ EmployeeProject(
 Position(
   PositionId PRIMERY KEY smallserial,
   PositionName varchar(128));
+  DepartmentId SECONDARY KEY smallint,
 ```
 ## 6.	DepartmentType
 
@@ -70,7 +68,8 @@ DepartmentType(
 Department(
   DepartmentId PRIMERY KEY smallserial,
   DepartmentTypeId SECONDARY KEY smallint,
-  DepartmentName varchar(128));
+  DepartmentName varchar(128),
+  AddressID SECONDARY KEY smallint,);
 ```
 ## 8.	Address
 
@@ -79,21 +78,7 @@ Address(
   AddressID PRIMERY KEY smallserial,
   DepartmentAddress varchar(128));
 ```
-## 9.	DepartmentAddress
 
-```
-DepartmentAddress(
-  DepartmentId PRIMERY KEY smallserial,
-  AddressID SECONDARY KEY smallint);
-```
-## 10. PositionDepartment
-
-```
-PositionDepartment(
-  PositionDepartmentId PRIMERY KEY smallserial,
-  PositionId SECONDARY KEY smallint,
-  DepartmentId SECONDARY KEY smallint,);
-```
 
 ## Какие данные хранятся в этих таблицах;
 Ответ в таблице:
