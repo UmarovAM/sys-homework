@@ -5,11 +5,18 @@
 
 ## каталог пользователя с исходными данными:
 
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/bbe04841-5a12-4b6f-9513-72551eebe389)
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/4e1aea2c-da7a-4dee-91a7-5de9a786d32c)
+
+## шифрование:
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/5ffcd28d-9c19-4c2d-b0cc-ad5210142209)
 
 ## каталог пользователя с зашифрованными данными:
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/96e94fc7-fc0d-4885-8321-4f2582184362)
 
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/2c0ca5da-f75c-4e9e-b047-068c1a18584f)
+## проверка:
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/18349c2a-c411-4433-9c8f-cacf47e5973d)
+
 
 ### Задание 2
 
