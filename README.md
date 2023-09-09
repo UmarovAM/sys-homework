@@ -45,12 +45,14 @@ nmap -sA, нет записи в логах, все ACK пакеты были п
 ## Задание 2
 ### Логи Suricata:
 
-Suricata зафиксировал атаку как попытку получения доступа.
+Suricata зафиксировал атаку, как попытку получения доступа.
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/9262e487-9825-4973-b079-3f201ac55245)
 
 ### Логи Fail2Ban:
 
-Fail2Ban зафиксировал атаку и закрыл доступ на 10 согласно конфигурвции /etc/fail2ban/jail.conf
+Fail2Ban зафиксировал атаку и закрыл доступ на 10 мин по ssh согласно конфигурвции /etc/fail2ban/jail.conf
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/eb23bfa3-44a0-4923-9d64-7d85ee702f5d)
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/06dc4f75-6060-4680-85f5-07ec67bf4aff)
