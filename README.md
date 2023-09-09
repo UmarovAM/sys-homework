@@ -32,10 +32,13 @@ nmap -sA, нет записи в логах, все ACK пакеты были п
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/446b3ad7-5c79-494c-930e-5cc0597822cb)
 
 при nmap -sV
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/74d4f320-dea1-413e-9ebe-17fbc7b924b0)
 
 ### Логи Fail2Ban:
+
 В логах Fail2Ban не было записей, так как в правилах одна запись sshd
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/96a3252e-6ee1-4adf-9540-b72d40f27ee8)
 
 
