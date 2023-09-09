@@ -21,6 +21,7 @@ sudo nmap -sV < ip-адрес >
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/ffd2d19b-c47f-4dcd-ba5f-d0a5e97b57d8)
 
 логи Suricata:
+nmap -sA, нет записи в логах
 
 при nmap -sT
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/63e505dc-1f08-4872-a352-47da05462398)
