@@ -15,10 +15,10 @@ sudo nmap -sV < ip-адрес >
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/f9319282-77d2-43dd-9e61-b757a17917b7)
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/550940cd-3d61-4592-a101-704240dbc942)
 
-### сканирование nmap
+### Cканирование nmap
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/ffd2d19b-c47f-4dcd-ba5f-d0a5e97b57d8)
 
-логи Suricata:
+### Логи Suricata:
 nmap -sA, нет записи в логах, все ACK пакеты были проигнорированы межсетевым экраном.
 
 при nmap -sT
