@@ -5,10 +5,16 @@
 
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
 
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/6a831c4e-b596-40b5-a959-528d792b7376)
+
+
 ### Задание 2. Kibana
 Установите и запустите Kibana.
 
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/64d14807-e50f-42ac-aa2d-256792c851cb)
+
 
 ### Задание 3. Logstash
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
