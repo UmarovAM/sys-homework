@@ -49,8 +49,21 @@ $ cat /etc/hosts
 
 $ rabbitmqctl cluster_status
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b7df6c16-0759-4fa5-9038-f8abc8a906e8)
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/e9de3532-a7cb-4ed6-96c9-7f922890e27f)
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/5628ba4e-558a-4931-ae15-bd761405700d)
+
 
 $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/a3b67d43-b00b-44a9-997c-e13b1e55297d)
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/800f08b1-48b0-481c-a54a-0f9c87fb7ac7)
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b1291ef5-ac80-48c0-95a5-6a3821796289)
+
