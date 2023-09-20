@@ -65,6 +65,17 @@ where first_name like 'Kelly'or first_name like ('Willie') and active = 1
 
 Выведите Email каждого покупателя, разделив значение Email на две отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй — значение, указанное после @.
 
+```sql
+select 
+email, 
+substring_index (email, '@',1), 
+substring_index (email, '@',-1) 
+from customer;
+```
+
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/7db5d5a0-f3e8-4108-8424-ba54789a2362)
+
+
 ### Задание 6*
 
 Доработайте запрос из предыдущего задания, скорректируйте значения в новых колонках: первая буква должна быть заглавной, остальные — строчными.
