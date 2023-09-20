@@ -5,24 +5,21 @@
 
 Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
 
-`
 SELECT DISTINCT district
 FROM address
 WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
-`
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/5ec011a0-8c00-45fd-9278-cbef2499303d)
 
 
 ### Задание 2
 
-`
+Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года **включительно** и стоимость которых превышает 10.00.
+
 select amount, payment_date
 from payment
 where amount > 10 and cast(payment_date as date) between 20050616 and 20050618
 order by payment_date;
-`
-
-Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года **включительно** и стоимость которых превышает 10.00.
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cdf7133a-0cb2-40e2-8003-0c0982d16460)
 
