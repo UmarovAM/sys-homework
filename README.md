@@ -57,7 +57,6 @@ where first_name like 'Kelly'or first_name like ('Willie') and active = 1
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/54708bb9-e002-404e-aaa6-2f176c071c26)
 
-## Дополнительные задания (со звёздочкой*)
 ### Задание 5*
 Выведите Email каждого покупателя, разделив значение Email на две отдельных колонки: в первой колонке должно быть значение, указанное до @, во второй — значение, указанное после @.
 
