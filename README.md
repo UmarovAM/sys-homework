@@ -25,7 +25,7 @@ where amount > 10 and cast(payment_date as date) between 20050616 and 20050618
 order by payment_date;
 ```
 
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/cdf7133a-0cb2-40e2-8003-0c0982d16460)
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/b33df338-a6a4-4aef-b0d1-9f8f9b65424e)
 
 
 ### Задание 3
