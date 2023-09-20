@@ -7,6 +7,11 @@
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/5ec011a0-8c00-45fd-9278-cbef2499303d)
 
+`
+SELECT DISTINCT district
+FROM address
+WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
+`
 
 ### Задание 2
 
