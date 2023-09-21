@@ -70,7 +70,14 @@ from customer;
 
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/7db5d5a0-f3e8-4108-8424-ba54789a2362)
 
-
 ### Задание 6*
 
 Доработайте запрос из предыдущего задания, скорректируйте значения в новых колонках: первая буква должна быть заглавной, остальные — строчными.
+
+```sql
+SELECT
+CONCAT(UPPER(LEFT(LOWER(SUBSTRING_INDEX(email,'@',1)),1)), substr(LOWER(SUBSTRING_INDEX(email,'@',1)), 2)) AS address, 
+CONCAT(UPPER(LEFT(SUBSTRING_INDEX(email,'@',-1),1)), substr(SUBSTRING_INDEX(email,'@',-1), 2)) AS domen
+FROM customer;
+```
+
