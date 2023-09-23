@@ -10,9 +10,9 @@
 ```sql
 select concat(s2.last_name, ' ', s2.first_name), c2.city, count(c.store_id)
 from customer c join store s on s.store_id = c.store_id 
-				join staff s2 on s2.staff_id = s.manager_staff_id 
-				join address a on s2.address_id = a.address_id 
-				join city c2 on c2.city_id = a.city_id 
+		join staff s2 on s2.staff_id = s.manager_staff_id 
+		join address a on s2.address_id = a.address_id 
+		join city c2 on c2.city_id = a.city_id 
 group by c.store_id 
 having count(c.store_id) > 300
 ```
