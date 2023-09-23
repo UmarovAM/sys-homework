@@ -21,10 +21,25 @@ having count(c.store_id) > 300
 ### Задание 2
 
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
+```sql
+select count(f.title)
+from film f
+where f.`length` > (select avg (`length`) from film)
+```
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/62abd86f-5d17-423e-aa3c-00fdd726ed4e)
 
 ### Задание 3
 
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
+```sql
+select monthname(payment_date), sum(p.amount), count(p.rental_id)
+from payment p
+group by monthname(payment_date)
+order by sum(p.amount) desc 
+limit 1
+```
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/477e4e57-8407-43f7-a937-cab49c25ed08)
+
 
 
 ## Дополнительные задания (со звёздочкой*)
