@@ -32,13 +32,14 @@ where f.`length` > (select avg (`length`) from film)
 
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 ```sql
-select date_format(payment_date, '%d%m%y'), sum(p.amount), count(p.rental_id)
+select date_format(payment_date, '%c'), sum(p.amount), count(p.rental_id)
 from payment p
-group by date_format(payment_date, '%d%m%y')
+group by date_format(payment_date, '%c')
 order by sum(p.amount) desc 
 limit 1
 ```
-![image](https://github.com/UmarovAM/sys-homework/assets/118117183/dbf3f341-332e-428e-92a7-cf2638bb4590)
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/2666fcc2-5add-4967-af15-0a50357ee229)
+
 
 
 ## Дополнительные задания (со звёздочкой*)
