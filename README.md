@@ -38,6 +38,8 @@ group by date_format(payment_date, '%c%Y')
 order by sum(p.amount) desc 
 limit 1
 ```
+![image](https://github.com/UmarovAM/sys-homework/assets/118117183/60f8d4d8-154e-4286-8a90-1ea71ce17457)
+
 ![image](https://github.com/UmarovAM/sys-homework/assets/118117183/2666fcc2-5add-4967-af15-0a50357ee229)
 
 
